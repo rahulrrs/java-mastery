@@ -10,7 +10,12 @@ public class AreaOfRect {
         area(length, width);
     }
     public static void area (int length, int width) {
-        int area = length*width;
-        System.out.println("The Area of Rectangle is "+area);
+        if(length>width) {
+            int area = length*width;
+            System.out.println("The Area of Rectangle is "+area);
+        }
+        else{
+            System.err.println("Wrong input");
+        }
     }
 }
