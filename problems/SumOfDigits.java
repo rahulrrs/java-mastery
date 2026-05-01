@@ -1,18 +1,18 @@
 import java.util.Scanner;
-public class Rev {
+public class SumOfDigits {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.print("Enter the digit: ");
         long num = sc.nextLong();
-        reverse(num);
+        sum(num);
     }
-    public static void reverse(long num) {
-        long reverse = 0L;
+    public static void sum(long num) {
+        int sum = 0;
         while(num>0) {
             long digit = num%10;
-            reverse = reverse*10+digit;
+            sum+=digit;
             num/=10;
         }
-        System.out.println("Reversed number: "+reverse);
+        System.out.println("Sum: "+sum);
     }
 }
