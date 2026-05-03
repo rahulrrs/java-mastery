@@ -11,7 +11,6 @@ public class Fibonacci {
         int second = 1;
         if (range < 1) {
             System.out.println("Invalid");
-            return;
         }
         else {
             if (range>=1) System.out.print(first+" ");
