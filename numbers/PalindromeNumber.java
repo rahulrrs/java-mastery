@@ -1,5 +1,7 @@
+package numbers;
+
 import java.util.Scanner;
-public class Palindrome_num {
+public class PalindromeNumber {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.print("Enter the digit: ");

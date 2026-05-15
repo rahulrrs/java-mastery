@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Pattern1 {
+public class RepeatedNumberTriangle {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.print("Enter the range: ");
         int num = sc.nextInt();
-        box(num);
+        righttriangle(num);
     }
-    public static void box(int num) {
-        for (int i = 0; i < num; i++) {
-            for (int j = 0; j < num; j++) {
-                System.out.print("* ");
+    public static void righttriangle(int num) {
+        for (int i = 1; i <=num; i++) {
+            for (int j = 1; j <=i; j++) {
+                System.out.print(i+" ");
             }
             System.out.println();
         }

@@ -1,2 +1,4 @@
 *.class
+bin/
+out/
 to_add.md

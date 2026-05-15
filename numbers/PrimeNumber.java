@@ -1,5 +1,7 @@
+package numbers;
+
 import java.util.Scanner;
-public class Prime {
+public class PrimeNumber {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.print("Enter a number: ");

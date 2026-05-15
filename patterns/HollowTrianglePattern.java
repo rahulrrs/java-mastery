@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Pattern8 {
+public class HollowTrianglePattern {
     static Scanner sc = new Scanner(System.in);
     public static void main (String args[]) {
         System.out.print("Enter the range: ");

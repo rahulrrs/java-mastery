@@ -1,6 +1,8 @@
+package numbers;
+
 import java.util.Scanner;
 // without using Temp
-public class Swap {
+public class SwapNumbers {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.print("Enter the First Number: ");

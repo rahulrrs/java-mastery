@@ -1,3 +1,5 @@
+package basics;
+
 public class Output {
     public static void main() {
         int a = 10;

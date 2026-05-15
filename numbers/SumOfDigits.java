@@ -1,3 +1,5 @@
+package numbers;
+
 import java.util.Scanner;
 public class SumOfDigits {
     static Scanner sc = new Scanner(System.in);

@@ -1,5 +1,7 @@
+package numbers;
+
 import java.util.Scanner;
-public class AreaOfRect {
+public class AreaOfRectangle {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int length, width;

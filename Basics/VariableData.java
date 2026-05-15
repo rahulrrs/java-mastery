@@ -1,4 +1,6 @@
-public class Vardata {
+package basics;
+
+public class VariableData {
     public static void main(String[] args){
         final int a = 10; //if final keyword is used variable value cant be changed and becomes constant
         float b = 21.112f;

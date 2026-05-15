@@ -1,3 +1,5 @@
+package numbers;
+
 import java.util.Scanner;
 public class Fibonacci {
     static Scanner sc = new Scanner(System.in);
