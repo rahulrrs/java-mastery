@@ -5,7 +5,7 @@ import java.util.Scanner;  //importing Scanner
 public class VariableData {
     static Scanner sc = new Scanner(System.in); //initializing Scanner class to take input from user
     public static void main(String[] args){
-        final int a = 10; //if final keyword is used variable value cant be changed and becomes constant
+        final int a = 10; //if final (constants) keyword is used variable value cant be changed and becomes constant 
         float b = 21.112f;
         double c = 3232.232;
         char d = 's';
